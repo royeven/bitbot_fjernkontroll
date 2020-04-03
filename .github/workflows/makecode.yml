@@ -27,3 +27,5 @@ jobs:
           pxt build --cloud
         env:
           CI: true
+        libs: jquery
+        extra_javascript: [embed.js]
